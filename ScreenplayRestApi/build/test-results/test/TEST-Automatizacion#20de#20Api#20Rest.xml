@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Automatizacion de Api Rest" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-09-08T04:26:45" hostname="LAPTOP-IMVIRUFJ" time="10.118">
+  <properties/>
+  <testcase name="Eliminar la informacion de un usuario" classname="Automatizacion de Api Rest" time="4.192"/>
+  <testcase name="Consultar informacion de usuario" classname="Automatizacion de Api Rest" time="1.261"/>
+  <testcase name="Actualizar un usuario con el metodo Patch" classname="Automatizacion de Api Rest" time="1.32"/>
+  <testcase name="Crear un usuario con el metodo Post" classname="Automatizacion de Api Rest" time="1.305"/>
+  <system-out><![CDATA[HTTP/1.1 204 No Content
+Date: Thu, 08 Sep 2022 04:26:48 GMT
+Connection: keep-alive
+Cache-Control: no-cache
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 0fd863d7-3421-467c-94ac-793d8480f25a
+x-runtime: 0.089547
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=BrDr6jA51qvD6ZixjitigVvn84bTV73GzHCdV3zka0e3k45fNnzpTNwp5XxxcGrHgHpRrozxzgEcoB%2BN7QpT44kqTcXgvi1%2BdLLsrw%2F0kVZbXgMleU9spVqJC98Ys08%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7474ed914a2fe5bb-BOG
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+HTTP/1.1 200 OK
+Date: Thu, 08 Sep 2022 04:26:51 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"270c70bfd86575592fa9badb1ae03246"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: b551b3d7-6050-4705-94ea-e6a442cdbdb6
+x-runtime: 0.073726
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=pCe%2FF9pX8ubKQh8ezf0UY0VDTKNisiKtVJfrHr8afPY1Ja7zaPv84idgdmpmsCZA69n3j8s%2FFl2yCi02T5Ex4TisFaD%2FTRasKIvnSAAjPsmAvowOWMXDg7c3y%2FnW5oA%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7474eda2ddb3f26f-BOG
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "id": 18,
+    "name": "Marion Padberg",
+    "email": "padberg_marion@schowalter-smitham.io",
+    "gender": "male",
+    "status": "active"
+}
+HTTP/1.1 200 OK
+Date: Thu, 08 Sep 2022 04:26:53 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"5650d7ffe025fdb96e99aef97c2360c8"
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: e13a900c-2baa-4ba3-ac36-46a185ee131f
+x-runtime: 0.066415
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=1jswJXwfohyhDtlsmYJceQjO5DtqXF7Wg9lAiFmd8jbGw0zK3iemDVUVPb8XNIsCbkG5zb5kIlJ4KLC9SvvOA9Q3GDqBeOswo37Kb1yTwecYQKYxIjYZfKHX6fpc90U%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7474edab28363ee1-BOG
+Content-Encoding: gzip
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "name": "Armando Casas de Bareque",
+    "status": "inactive",
+    "id": 2898,
+    "email": "armando.casas5@gorest.in.co",
+    "gender": "male"
+}
+HTTP/1.1 201 Created
+Date: Thu, 08 Sep 2022 04:26:54 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Cache-Control: max-age=0, private, must-revalidate
+etag: W/"24f5a94d389e9466722ca4ede7c38d18"
+location: https://gorest.co.in/public/v2/users/2962
+referrer-policy: strict-origin-when-cross-origin
+vary: Origin
+x-content-type-options: nosniff
+x-download-options: noopen
+x-frame-options: SAMEORIGIN
+x-permitted-cross-domain-policies: none
+x-ratelimit-limit: 90
+x-ratelimit-remaining: 89
+x-ratelimit-reset: 1
+x-request-id: 63ade546-e374-4608-8ef0-297bd7834f2f
+x-runtime: 0.076399
+x-xss-protection: 0
+CF-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v3?s=%2FWu8UyuThdLiy76408MfA8PqEHquZII3rnPd9l34bWoqdMW1eQSoLKmq%2BPjc%2FCrtk2uv6JipQKEwMPCSpM0KO%2FOSbpMdkQ1h5u0Nm3Z1fJTTtbfSA7h%2Fcz%2BS5%2FHpBtE%3D"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+CF-RAY: 7474edb3eebdc220-MDE
+alt-svc: h3=":443"; ma=86400, h3-29=":443"; ma=86400
+
+{
+    "id": 2962,
+    "name": "Armando Casas",
+    "email": "armando.casas6@gorest.in.co",
+    "gender": "male",
+    "status": "active"
+}
+]]></system-out>
+  <system-err><![CDATA[[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Documentos/Cristian/Desarrollos/JavaProjects/ScreenplayRestApi/src/test/resources/com/sophossolutions/features/delete_gorest.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Eliminar la informacion de un usuario(automatizacion-de-api-rest;eliminar-la-informacion-de-un-usuario)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Eliminar la informacion de un usuario
+----------------------------------------------------------------------
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Documentos/Cristian/Desarrollos/JavaProjects/ScreenplayRestApi/src/test/resources/com/sophossolutions/features/get_gorest.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Consultar informacion de usuario(automatizacion-de-api-rest;consultar-informacion-de-usuario)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Consultar informacion de usuario
+----------------------------------------------------------------------
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Documentos/Cristian/Desarrollos/JavaProjects/ScreenplayRestApi/src/test/resources/com/sophossolutions/features/patch_gorest.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Actualizar un usuario con el metodo Patch(automatizacion-de-api-rest;actualizar-un-usuario-con-el-metodo-patch)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Actualizar un usuario con el metodo Patch
+----------------------------------------------------------------------
+[Test worker] INFO io.cucumber.core.plugin.SerenityReporter - Running feature from file:///D:/Documentos/Cristian/Desarrollos/JavaProjects/ScreenplayRestApi/src/test/resources/com/sophossolutions/features/post_gorest.feature
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___   _____     _     ___   _____   ___   ___  
+ |_   _| | __| / __| |_   _|   / __| |_   _|   /_\   | _ \ |_   _| | __| |   \ 
+   | |   | _|  \__ \   | |     \__ \   | |    / _ \  |   /   | |   | _|  | |) |
+   |_|   |___| |___/   |_|     |___/   |_|   /_/ \_\ |_|_\   |_|   |___| |___/ 
+
+Crear un usuario con el metodo Post(automatizacion-de-api-rest;crear-un-usuario-con-el-metodo-post)
+--------------------------------------------------------------------------------
+[Test worker] INFO  - 
+  _____   ___   ___   _____     ___     _     ___   ___   ___   ___  
+ |_   _| | __| / __| |_   _|   | _ \   /_\   / __| / __| | __| |   \ 
+   | |   | _|  \__ \   | |     |  _/  / _ \  \__ \ \__ \ | _|  | |) |
+   |_|   |___| |___/   |_|     |_|   /_/ \_\ |___/ |___/ |___| |___/ 
+
+Crear un usuario con el metodo Post
+----------------------------------------------------------------------
+]]></system-err>
+</testsuite>
